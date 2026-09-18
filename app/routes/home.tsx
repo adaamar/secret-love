@@ -52,7 +52,7 @@ export default function Home() {
 
       {bgValue === "" &&
         <div className="flex flex-col gap-3 bg-pink-800 w-full text-white p-5 fixed top-1/3 rounded-xl">
-          <h1 className="text-xl">What is your husband(Adam) dream daughter name</h1>
+          <h1 className="text-xl">What is your husband(Adam) daughter name dream</h1>
           <input value={inputValue} onChange={e => setInputValue(e.target.value)} type="text" placeholder="Chno ism" className="bg-pink-900 p-3 rounded-xl text-lg" />
           <button onClick={handleClick} className="p-3 bg-white text-black text-xl max-w-max rounded-full self-center active:scale-90 duration-200 cursor-pointer">{!btnValue ? "Ktb hna 👆" : btnValue}</button>
         </div>
