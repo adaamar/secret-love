@@ -44,7 +44,7 @@ export default function Home() {
     <div className="w-full ">
       <p className="animate-pulse text-center">{bgValue}</p>
       {bgValue &&
-        <div className="bg-[#ff798f67] fixed top-0 h-screen w-full flex flex-col justify-center items-center">
+        <div className="fixed top-0 h-screen w-full flex flex-col justify-center items-center">
           <h1 className="text-9xl animate-ping">🤍</h1>
           <h1 className="text-xl font-serif bg-pink-600 p-1 rounded-md">Pure love for my Angel🌹</h1>
         </div>
