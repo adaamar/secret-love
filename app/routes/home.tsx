@@ -41,6 +41,12 @@ export default function Home() {
   }, [])
 
   return (
+    <div className="flex h-screen w-full justify-center items-center">
+      <h1 className="text-2xl">Wait... angel detected🔍</h1>
+    </div>
+  )
+
+  return (
     <div className="w-full ">
       <p className="animate-pulse text-center">{bgValue}</p>
       {bgValue &&
